@@ -1,0 +1,29 @@
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.business-info {
+    background-color: #efe8fc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+footer {
+    background-color: #32174d;
+    color: white;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.contact h2 {
+    color: #efe8fc;
+}

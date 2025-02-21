@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VirtualKitchen-Recipes</title>
+        <link rel="stylesheet" href="../Navigation.css">
+        <link rel="stylesheet" href="./Recipe.css">
+    </head>
+    <body>
+        <nav>
+            <a href="../Home/Home.html">Home</a>
+            <a href="./Recipe.html" class="active">Recipes</a>
+            <a href="../Contact/Contact.html">Contact</a>
+        </nav>
+
+        <div class="content-wrapper">
+            <aside class="sidebar">
+                <h2>Filter by Meal</h2>
+                <div class="filter-options">
+                    <label class="filter-option">
+                        <input type="checkbox" name="meal" value="breakfast">
+                        Breakfast
+                    </label>
+                    <label class="filter-option">
+                        <input type="checkbox" name="meal" value="lunch">
+                        Lunch
+                    </label>
+                    <label class="filter-option">
+                        <input type="checkbox" name="meal" value="dinner">
+                        Dinner
+                    </label>
+                    <label class="filter-option">
+                        <input type="checkbox" name="meal" value="dessert">
+                        Dessert
+                    </label>
+                </div>
+            </aside>
+
+            <div class="recipe-grid">
+                <div class="recipe-card" data-meal="dinner">
+                    <img src="../images/chickenriceandpeas.jpg" alt="Caribbean chicken with rice and peas" class="recipe-image">
+                    <a href="../recipes/chickenriceandpeas.html" class="recipe-title">Chicken, Rice and Peas</a>
+                    <!-- Image is from the BBC website https://www.bbc.co.uk/food/recipes/chicken_rice_and_peas_78882 -->
+                </div>
+                <div class="recipe-card" data-meal="dinner">
+                    <img src="../images/brownstewchicken.jpg" alt="Brown stew chicken" class="recipe-image">
+                    <a href="../recipes/brownstewchicken.html" class="recipe-title">Brown Stew Chicken</a>
+                    <!-- Image is from the BBC website https://www.bbc.co.uk/food/recipes/brown_stew_chicken_22517 -->
+                </div>
+                <div class="recipe-card" data-meal="breakfast">
+                    <img src="../images/basicpancakes.jpg" alt="Pancakes" class="recipe-image">
+                    <a href="../recipes/basicpancakes.html" class="recipe-title">Pancakes</a>
+                    <!-- Image is from the BBC website https://www.bbc.co.uk/food/recipes/basicpancakeswithsuga_66226 -->
+                </div>
+                <div class="recipe-card" data-meal="dessert">
+                    <img src="../images/fruityfritters.jpg" alt="Fruity fritters" class="recipe-image">
+                    <a href="../recipes/fruityfritters.html" class="recipe-title">Fruity fritters</a>
+                    <!-- Image is from the BBC website https://www.bbc.co.uk/food/recipes/fruity_fritters_83168 -->
+                </div>
+                <div class="recipe-card" data-meal="dessert">
+                    <img src="../images/chocolatecake.jpg" alt="Chocolate Cake" class="recipe-image">
+                    <a href="../recipes/chocolatecake.html" class="recipe-title">Chocolate Cake</a>
+                    <!-- Image is from the BBC website https://www.bbc.co.uk/food/chocolate_cake -->
+                </div>
+            </div>
+        </div>
+
+        <script src="RecipeFilter.js"></script>
+    </body>
+</html>
